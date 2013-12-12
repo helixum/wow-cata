@@ -38,7 +38,7 @@ CORE_HOME_CAT=/home/wow/Core-cata
 
 #comm out all 
 #start the new install.sh
-if test -d $ACE_SYS; then rm -rf .sys;fi #only need for testing this script when we start it again, this is for testing only
+if test -d $ACE_SYS; then rm -rf $ACE_SYS;fi #only need for testing this script when we start it again, this is for testing only
 if test -d $ACE_SYS; then
 echo ACE Wrappers is installed in $ACE_SYS
 echo no install needed; else 
